@@ -1,0 +1,66 @@
+
+        body {
+            background-image: url("https://i.pinimg.com/originals/3e/86/0d/3e860d2e061e24f4309a98a3bc16028a.jpg");
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .tweet-button{
+            background-color: rgb(2, 137, 255);
+            color: white;
+            border: none;
+            height: 36px;
+            width: 74px;
+            border-radius: 18px;
+            font-weight: bold;
+            font-size: 15px;
+            cursor: pointer;
+            margin-left: 8px;
+        }
+
+        .head-bar{
+            font-family: Arial;
+            font-size: 50px;
+        }
+
+    
+
+        .menu-button{
+            background-color: black;
+            border: solid;
+            border-radius: 8px;
+            cursor: pointer;
+            border-color: black;
+            color: white;
+            margin-left: 10px;
+            transition: box-shadow 500ms;
+        }
+
+        .menu-button:hover{
+            opacity: 0.6;
+            box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
+        }
+
+        .menu-button:active{
+            opacity: 0.4;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6)
+        }
+
+        .paragraph{
+            font-family: Arial;
+        }
+
+        .menu{
+            display: flex;
+        }
+
+        .input{
+            margin-left: 8px;
+            border: solid;
+            border-radius: 10px;
+            color: white;
+            border: none;
+            background-color: black;
+        }
