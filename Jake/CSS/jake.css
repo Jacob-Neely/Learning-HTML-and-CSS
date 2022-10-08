@@ -7,19 +7,6 @@
             text-decoration: none;
         }
 
-        .tweet-button{
-            background-color: rgb(2, 137, 255);
-            color: white;
-            border: none;
-            height: 36px;
-            width: 74px;
-            border-radius: 18px;
-            font-weight: bold;
-            font-size: 15px;
-            cursor: pointer;
-            margin-left: 8px;
-        }
-
         .head-bar{
             font-family: Arial;
             font-size: 50px;
@@ -28,19 +15,19 @@
     
 
         .menu-button{
-            background-color: black;
+            background-color: gray;
             border: solid;
-            border-radius: 8px;
+            border-radius: 10px;
             cursor: pointer;
-            border-color: black;
-            color: white;
+            border-color: gray;
+            color: black;
             margin-left: 10px;
             transition: box-shadow 500ms;
         }
 
         .menu-button:hover{
             opacity: 0.6;
-            box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
         }
 
         .menu-button:active{
@@ -60,7 +47,7 @@
             margin-left: 8px;
             border: solid;
             border-radius: 10px;
-            color: white;
+            color: black;
             border: none;
-            background-color: black;
+            background-color: gray;
         }
