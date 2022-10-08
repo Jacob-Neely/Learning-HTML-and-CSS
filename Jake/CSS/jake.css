@@ -51,16 +51,31 @@ a {
     height: 30px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
-    margin: 15px 7px 15px -7px;
+    margin: 0px 7px 15px -7px;
 }
 
 .input{
-    height: 30px;
-    margin-left: 8px;
-    border: solid;
-    border-radius: 10px;
+    height: 28px;
+    width: 25%;
+    font-size: 14px;
     color: white;
-    border: none;
+    border: solid 1px gray;
+    border-radius: 10px;
     background-color: rgb(27, 27, 27);
+    margin-left: 8px;
     padding: 0px 10px;
+}
+
+.input-button {
+    height: 28px;
+    color: white;
+    background-color:  rgb(27, 27, 27);
+    border: none;
+    border-radius: 10px;
+    margin-left: -53px;
+    cursor: pointer;
+}
+
+.input-button:hover {
+    background-color: rgb(50, 50, 50);
 }
