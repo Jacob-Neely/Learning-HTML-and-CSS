@@ -102,3 +102,12 @@ a {
     border-radius: 30px;
     margin: 0px 12px;
 }
+
+.test-button{
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    cursor: pointer;
+    padding-left: 5px;
+}
