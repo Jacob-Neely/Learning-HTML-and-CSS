@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Jake/CSS/jake.css">
+    <title>Sign up</title>
+</head>
+<body>
+
+    <h1 class="head-bar">Play around with the sign up thing.</h1>
+
+    <h2 class="head-bar2">It also sends you back to the home page! </h2>
+
+    <h3 class="head-bar2">Troll if you want I don't care...</h3>
+
+    <form action="./Home.html" method="GET">
+        <div>
+            <label>Username</label>
+            <input type="text" name="name" id="name" placeholder="Username" required>
+        </div>
+
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div>
+            <label>Age</label>
+            <input type="number" name="age" id="age" min="1" max="200" step="1">
+        </div>
+
+        <div>
+            <label>Password</label>
+            <input type="password" name="password" placeholder="Password" required>
+        </div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
